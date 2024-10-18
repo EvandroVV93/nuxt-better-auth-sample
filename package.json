@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "add-migration": "drizzle-kit generate --name",
+    "migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "better-auth": "^0.4.14-beta.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.2",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.11",
+    "drizzle-kit": "^0.26.2",
+    "tsx": "^4.19.1"
+  }
+}
